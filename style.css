@@ -116,11 +116,11 @@ a:hover{
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
     margin: 5px 0;
-    background-color: rgba(0, 207, 200, 0.1); /* Light teal background for subtle styling */
+    background-color: #eacbd2;
 }
 
 .menu-links a:hover {
-    background-color: #00CFC8;
+    background-color: #edbcc7;
     color: white;
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
