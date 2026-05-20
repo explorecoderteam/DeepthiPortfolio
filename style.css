@@ -207,17 +207,18 @@ a:hover::after {
 
 /* Section Configurations */
 section {
-    padding-top: 8vh;
-    height: 96vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    min-height: 94vh;
+    height: auto;
     margin: 0 8rem;
     box-sizing: border-box;
-    min-height: fit-content;
 }
 
 .section-container {
     display: flex;
     gap: 4rem;
-    height: 80%;
+    height: auto;
     align-items: center;
 }
 
@@ -227,7 +228,8 @@ section {
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    height: 85vh;
+    min-height: 80vh;
+    height: auto;
 }
 
 .section__pic-container, .section__pic-container1 {
